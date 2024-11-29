@@ -67,10 +67,19 @@ console.log(sum(3, 4));`, // Output: 7
 }
 console.log(sum(3, 4));`, // Output: 7
 
-  php: `function sum($a, $b) {
-  return $a + $b;
-}
-echo sum(3, 4);`, // Output: 7
+  php: `<?php
+
+// Define two numbers
+$num1 = 10;
+$num2 = 20;
+
+// Add the numbers
+$sum = $num1 + $num2;
+
+// Display the result
+echo "The sum of $num1 and $num2 is: $sum";
+
+?>`, // Output: 7
 
   python: `def sum(a, b):
     return a + b
